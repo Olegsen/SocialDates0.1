@@ -4,7 +4,7 @@ import styles from '../styles/ScreenStyles';
 
 const ProfileScreen: React.FC = () => {
   return (
-    <ImageBackground 
+    <ImageBackground
       source={require('../assets/Social_Cleaned_Proper.png')}
       style={styles.background}  // Globaler Style für den Hintergrund
       resizeMode="cover"

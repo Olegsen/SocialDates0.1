@@ -5,7 +5,7 @@ import styles from '../styles/ScreenStyles';
 const SettingsScreen: React.FC = () => {
   return (
     <ImageBackground
-      source={require('../assets/Social_Cleaned_Proper.png')} 
+      source={require('../assets/Social_Cleaned_Proper.png')}
       style={styles.background}  // Globaler Style für den Hintergrund
       resizeMode="cover"
     >
