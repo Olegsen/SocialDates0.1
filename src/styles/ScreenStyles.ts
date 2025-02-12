@@ -11,15 +11,38 @@ const styles = StyleSheet.create({
       justifyContent: 'center',
     },
     title: {
-      fontSize: 24,
+      fontSize: 40,
       fontWeight: 'bold',
       color: '#000000',
     },
     subtitle: {
       fontSize: 16,
       color: '#000000',
-      marginTop: 10,
+      marginBottom: 20,
       textAlign: 'center', // Optional, um den Text zentriert darzustellen
+    },
+    inputLogin: {
+      width: '80%',
+      height: '8.5%',
+      borderWidth: 1,
+      borderColor: '#5500a1',
+      padding: 10,
+      marginBottom: 20,
+      borderRadius: 5,
+      fontSize: 15,
+    },
+    button: {
+      backgroundColor: '#5500a1',
+      padding: 15,
+      borderRadius: 8,
+      alignItems: 'center',
+      marginBottom: 20,
+      width: '50%',
+    },
+    buttonText: {
+      color: '#fff',
+      fontSize: 15,
+      fontWeight: 'bold',
     },
   });
 

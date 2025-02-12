@@ -1,8 +1,6 @@
-/* eslint-disable react-native/no-inline-styles */
 import React from 'react';
-import { View, Text, ImageBackground ,Alert } from 'react-native';
-import MyButton from '../components/Button';
-import styles from '../styles/ScreenStyles';
+import { View, Text, ImageBackground } from 'react-native';
+import styles from '../styles/ScreenStyles';  // Ich gehe davon aus, dass du ScreenStyles benutzt
 
 const HomeScreen: React.FC = () => {
   return (
@@ -12,26 +10,13 @@ const HomeScreen: React.FC = () => {
       resizeMode="cover"
     >
     <View style={styles.container}>
-      <Text style={styles.title}>SocialDates</Text>
+      <Text style={styles.title}>Home</Text>
       <Text style={styles.subtitle}>
-        Triff Gleichgesinnte und knüpfe Kontakte.{'\n'}
-        <Text style={{ fontWeight: 'bold' }}>Erlebt, entdeckt, engagiert euch.{'\n'}</Text>
-        Gemeinschaft macht stark.
+        Hier werden später Neuigkeiten und Events aus der Umgebung aufgelistet
       </Text>
-
-      <MyButton
-        title="Login"
-        onPress={() => Alert.alert('Hallo', 'Du hast gedrückt!')}
-      />
-      <MyButton
-        title="Registrieren"
-        onPress={() => Alert.alert('Hallo', 'Du hast gedrückt!')}
-      />
     </View>
     </ImageBackground>
   );
 };
-
-
 
 export default HomeScreen;

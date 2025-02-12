@@ -4,7 +4,7 @@ import HomeScreen from '../screens/HomeScreen';
 import ProfileScreen from '../screens/ProfileScreen';
 import SettingsScreen from '../screens/SettingsScreen';
 import MatchScreen from '../screens/MatchScreen';
-import LocalPlaces from '../screens/LocalPlaces';
+import LocalPlaces from '../screens/LocalPlacesScreen';
 import TabBarIcon from './TabBarIcon'; // Importiere die ausgelagerte TabBarIcon-Komponente
 
 
