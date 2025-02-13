@@ -1,6 +1,7 @@
 {
   "extends": "@react-native/typescript-config/tsconfig.json",
   "compilerOptions": {
+    "jsx": "react",
     "allowSyntheticDefaultImports": true
   },
   "include": ["src/types/**/*.d.ts", "src/**/*", "node_modules/react-native-vector-icons/**/*"]
